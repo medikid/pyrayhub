@@ -1,0 +1,7 @@
+[Unit]
+   Description=Ray Daemon
+[Service]
+   Type=simple
+   ExecStart=/bin/bash -l /home/rayuser/py-projects/pyray/ray-head.sh
+[Install]
+WantedBy=multi-user.target
